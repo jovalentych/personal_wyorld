@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+.container1 {
+  width: 80%;
+  margin: 0 auto;
+}
+.header {
+  background: url(../../img/bg.jpg) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+.header h1 {
+  margin-top: 5rem;
+  color: white;
+}
+.header .logo-img {
+  width: 100px;
+}
+.header-form-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  background-color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+.header-form-box label {
+  font-weight: 700;
+  background-color: white;
+}
+.header-form-box input {
+  width: 100%;
+  padding: 0.7rem;
+  display: block;
+  border: 1px solid #dddddd;
+  font-size: 18px;
+}
+.main {
+  color: #333333;
+}
+.main-about {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.main-about img {
+  width: 340px;
+  border-radius: 12px;
+}
+.main-about-description {
+  padding: 2rem;
+}
+.main-todo {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5px;
+}
+.main-todo h2 {
+  margin-bottom: 3rem;
+}
+.main-todo-cards .card {
+  height: 30rem;
+  width: 20rem;
+  box-shadow: 4px 0 4px rgba(0, 0, 0, 0.3);
+}
+.footer {
+  min-height: 10rem;
+  margin-top: 5rem;
+  background-color: #333333;
+  border-radius: 12px 12px 0px 0px;
+  color: white;
+}
